@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback</title>
+</head>
+<body bgcolor="mintcream" style="padding-top: 40px;">
+<a href="f exercise3.html" target="blank"></a>
+	<table style="width: 50%; margin-left: 400px; margin-right: 400px; background-color: palegreen;">
+		<tr style="height: 70px;" bgcolor="mintcream">
+			<td colspan="2" style="border: double; color: green; padding: 10px; border-radius: 10px; color: darkgreen; text-align: center; font-size: 50px;">Feedback Form</td>
+		</tr>
+		<br><br>
+		<form>
+			<tr>
+				<td style= " padding-left: 75px; padding-top: 30px;">To:</td>
+				<td style="padding-top: 30px; padding-right: 150px;">
+					<input list="browers">
+					<datalist id="browers">
+						<option>Principle</option>
+						<option>Manager</option>
+						<option>Trainer</option>
+					</datalist>
+				</td>
+			</tr>
+			<tr>
+				<td style="padding-left: 75px;">Name:</td>
+				<td>
+					<input type="text" id="n" name="n" placeholder="Enter Full Name." style="width: 85%;">
+				</td>
+			</tr>
+			<tr>
+				<td style="padding-left: 75px;">
+					Email:
+				</td>
+				<td>
+					<input type="email" id="em" name="em" placeholder="sample@example.com" style="width: 85%;">
+				</td>
+			</tr>
+			<tr>
+				<td style="padding-left: 75px; padding-bottom: 40px;">Feedback:</td>
+				<td>
+					<textarea name="ta" rows="3" placeholder="Please type your comment." style="width: 85%;"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;">
+					<input type="submit" id="submit" name="Submit">
+				</td>
+			</tr>
+		</form>
+</table>
+</body>
+</html>
